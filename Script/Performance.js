@@ -107,7 +107,7 @@ function Performance() {
             }
 
             this.context.fillStyle = '#b4b4b4';
-            this.context.font = "9pt Verdana";
+            this.context.font = "7pt Verdana";
             this.context.textAlign = "center";
             this.context.fillText(message, ((sceneWidth + marginLeft - marginRight) / 2), 18);
 
