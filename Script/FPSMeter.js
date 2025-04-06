@@ -61,7 +61,7 @@ function FPSMeter() {
             this.context.fillStyle = '#b4b4b4';
             this.context.font = "16pt Opificio";
             this.context.textAlign = "center";
-            this.context.fillText(fishBowl.fish.length + " Fish", (this.width / 2) + this.padding, this.height + this.padding + 38);
+            this.context.fillText(fishBowl.fish.length + " 只鱼", (this.width / 2) + this.padding, this.height + this.padding + 38);
 
             this.fpsNeedle.style[performance.browserTransform] = 'translate(0px, 50px)' + 'rotate(' + this.fpsMeterCurrentAngle + 'deg)' + 'translate(0px, -50px)';
         }
