@@ -28,11 +28,11 @@
         <div id="FPSNeedle"></div>
         <canvas id="PerformanceCanvas"></canvas>
         <div id="ControlPanel">
-            <div id="FishHeading">Fish</div>
+            <div id="FishHeading">鱼的数量</div>
             <div id="FishMenu">
                 <div class="FishMenuItem" onclick="ToggleMenu();"><span id="currentMenuItem" >test</span><img id="MenuChevron" src="Images/Chevron.png"></div>
                 <div class="FishMenuDivider"></div>
-                <div class="FishMenuItem" onclick="HandleMenuClick('Auto');">Auto</div>
+                <div class="FishMenuItem" onclick="HandleMenuClick('Auto');">自动</div>
                 <div class="FishMenuItem" onclick="HandleMenuClick(1);">1</div>
                 <div class="FishMenuItem" onclick="HandleMenuClick(5);">5</div>
                 <div class="FishMenuItem" onclick="HandleMenuClick(10);">10</div>
@@ -48,7 +48,7 @@
                 <div class="FishMenuItem" onclick="HandleMenuClick(1750);">1750</div>
                 <div class="FishMenuItem" onclick="HandleMenuClick(2000);">2000</div>
             </div>
-            <div id="LayersHeading">Layers</div>
+            <div id="LayersHeading">图层</div>
             <div id="chkWater" class="Control Enabled" onclick="water.ToggleVisibility();">水效果</a></div>
             <div id="chkFrame" class="Control Enabled" onclick="frame.ToggleVisibility();"></a>框架</div>
             <div id="chkBowlMask" class="Control Enabled" onclick="fishBowl.ToggleBowlMaskVisibility();">鱼缸遮罩</div>
