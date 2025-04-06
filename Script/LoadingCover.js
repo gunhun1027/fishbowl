@@ -31,7 +31,7 @@ function LoadingCover() {
         context.font = "18pt Verdana";
         context.fillStyle = "#dfdfdf";
         context.textAlign = "center";
-        context.fillText("Initializing FishBowl...", sceneWidth * 0.5, sceneHeight * 0.4);
+        context.fillText("正在初始化鱼缸...", sceneWidth * 0.5, sceneHeight * 0.4);
         document.body.style.opacity = 1;
     }
 
